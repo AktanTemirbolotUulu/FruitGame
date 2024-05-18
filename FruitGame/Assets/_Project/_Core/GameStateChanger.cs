@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Project
 {
+    public enum DayType { Usual, Halloween, NewYear}
+
 public class GameStateChanger : MonoBehaviour
 {
+    public DayType dayType = DayType.Usual;
+
     private GameStateBase _currentState;
     private void Start()
     {
