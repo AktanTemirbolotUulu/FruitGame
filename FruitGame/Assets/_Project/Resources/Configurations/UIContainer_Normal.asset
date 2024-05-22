@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: UIContainer_Normal
   m_EditorClassIdentifier: 
   uis:
-  - {fileID: 0}
+  - {fileID: 3570490575408084907, guid: 2929841cb866b74498b924813234fce7, type: 3}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d034cb1399d94a343a34b1085b89d252, type: 3}
-  m_Name: UIContainer_NewYear
+  m_Name: UIContainer_Halloween
   m_EditorClassIdentifier: 
   uis:
-  - {fileID: 2625194245300085058, guid: dc431b33f1e0b0443a6eb921712e9777, type: 3}
+  - {fileID: 2625194245300085058, guid: b42c78a1d3123c142b9fb9ede136c8b9, type: 3}

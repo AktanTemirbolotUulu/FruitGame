@@ -14,7 +14,7 @@ namespace Project
         public override void Enter()
         {
             _uiContainer = Resources.Load<UIContainer>
-            ("Configurations/UIContainer" + _gameStateChanger.dayType.ToString());
+            ("Configurations/UIContainer_" + _gameStateChanger.dayType.ToString());
 
             SceneManager.LoadSceneAsync(1).completed += (operation) =>
             {
