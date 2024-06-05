@@ -1,10 +1,12 @@
 using System.Collections;
+using SO;
 using UnityEngine;
 namespace Project
 {
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private ItemBase[] _items;
+    [SerializeField] private ItemsList _itemsList;
+
     [SerializeField] private float _spawRate = 1;
         private void Start()
     {
@@ -15,8 +17,8 @@ public class Spawner : MonoBehaviour
         while(gameObject.activeSelf)
         {
             yield return new WaitForSeconds(_spawRate);
-            int index = Random.Range(0, _items.Length);
-            ItemBase itemCopy = Instantiate(_items[index]);
+            int index = Random.Range(0, _itemsList.items.Length);
+            ItemBase itemCopy = Instantiate(_itemsList.items[index]);
 
             Vector3 itemPosition = new Vector3();
             itemPosition.x = Random.Range(-10, 10);
