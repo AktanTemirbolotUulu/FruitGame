@@ -12,6 +12,7 @@ public class GameStateChanger : MonoBehaviour
     private GameStateBase _currentState;
     private void Start()
     {
+        DontDestroyOnLoad(gameObject);
         ChangeState(new MainMenu_GameState());
     }
     public void ChangeState(GameStateBase newGameStateBase)

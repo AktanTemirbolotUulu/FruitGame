@@ -479,6 +479,7 @@ GameObject:
   - component: {fileID: 1048022738934165377}
   - component: {fileID: 7491997280773553405}
   - component: {fileID: 8535862640457240432}
+  - component: {fileID: 5238355122288502267}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -588,6 +589,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5238355122288502267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5850625334806146485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f02d593e31cae14ba1a6daab6a5a9d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioName: Button
 --- !u!1 &6204345068932861997
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,6 +614,7 @@ GameObject:
   - component: {fileID: 4826101044902957278}
   - component: {fileID: 8510507494195915051}
   - component: {fileID: 4406610768402024895}
+  - component: {fileID: 8009816735036706998}
   m_Layer: 5
   m_Name: ShopButton
   m_TagString: Untagged
@@ -709,6 +724,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8009816735036706998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204345068932861997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f02d593e31cae14ba1a6daab6a5a9d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioName: Button
 --- !u!1 &7070330427175504674
 GameObject:
   m_ObjectHideFlags: 0

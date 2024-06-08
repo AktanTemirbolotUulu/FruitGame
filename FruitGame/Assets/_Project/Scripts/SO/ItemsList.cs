@@ -7,7 +7,6 @@ namespace SO
     [CreateAssetMenu ( fileName = "ItemsList", menuName =  "Configs/ItemsList") ]
 public class ItemsList : ScriptableObject
 {
-    [SerializeField]
     public ItemBase[] items;
 }
 }
